@@ -1,0 +1,91 @@
+body {
+    margin: 40px;
+    background: linear-gradient(to right, #2874A6, #5DADE2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #fff;
+}
+
+.ul-div {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.navbar {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.link {
+    float: left;
+    margin-right: 25px;
+
+}
+
+.active {
+    color: rgba(0, 0, 0, 1);
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+li a:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.8s;
+}
+
+div {
+    color: white;
+}
+
+#mySelector {
+    padding: 4px;
+}
+
+#copybut {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid darkgreen;
+}
+
+#copybut:hover {
+    cursor: pointer;
+}
+
+#userComponentName {
+    padding: 10px;
+}
+
+#userCSS {
+    width: 100%;
+    padding: 10px;
+}
+
+#userHTML {
+    width: 100%;
+    padding: 10px;
+}
+
+#component {
+    margin-top: 20px;
+}
+
+#outputCode {
+    padding: 10px;
+    border: solid 1px #e4e4e4;
+    border-radius: 10px;
+    text-align: justify;
+}

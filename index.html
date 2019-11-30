@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Stylize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="min.css" rel="stylesheet" />
+    <link href="custom.css" rel="stylesheet" />
+    <link rel="icon" href="logo.png" />
+    <meta property="og:image" content="logo.png" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Stylize</h1>
+    <div class="ul-div">
+        <ul class="navbar">
+            <li class="link active"><a href="index.html">LIVE CSS</a></li>
+            <li class="link"><a href="htmltoreact.html">HTML TO REACT COMPONENT</a></li>
+        </ul>
+    </div>
+    <div>
+        <select id="mySelector">
+            <option value="div">div</option>
+            <option value="img">image</option>
+            <option value="button">button</option>
+        </select>
+    </div>
+    <br /><br />
+    <div>Write CSS below & see changes live.</div>
+    <br /><br />
+    <textarea rows="7" onchange="updateCSS()" id="userCSS"></textarea>
+    <br /><br />
+    <div id="div"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum. </div>
+    <img id="img" style="display: none" src="img.jpg">
+    <button id="button" style="display: none">Sample Text</button>
+    <br /><br />
+    <div id="outputCode" onclick="selectText('outputCode')">
+        <div>Start entering CSS to get your code !</div>
+    </div>
+    <br /><br />
+    <button id="copybut">Copy CSS ❤️ !</button>
+    <br /><br />
+    <p style="display: none;font-size: 20px" id="copyText" class="flow-text">
+        Copied to clipboard
+    </p>
+    <br /><br />
+</body>
+
+</html>
